@@ -1,13 +1,11 @@
-Program do wysy≥ania plikÛw Edi na adres wskazany w polu Email odbiorcy 
-
-program monitoruje wskazany katalog w konfiguracji (config.properties) 
-zapisie w tym katalogu pliku program wyszukuje w nim ciπgu znakÛw "Nrdok:" 
-Jeúli go znjdzie wyszukuje w bazie adresu email dla tego dokumnetu uøywajπÊ zapytania 
+Program monitoruje wskazany katalog w konfiguracji (config.properties) 
+zapisie w tym katalogu pliku program wyszukuje w nim ciƒÖgu znak√≥w "Nrdok:" 
+Je≈ºeli go znajdzie wyszukuje w bazie adresu email dla tego dokumentu u≈ºywa  zapytania 
 
 select email from Kontrahent where kontrid = (select kontrid from dokkontr where dokid = (select dokid from dok where NrDok like '" + NrDok + "'
-jeúli go znajdzie wysy≥a go jako za≥πcznik pod wskazany adres 
+je≈õli go znajdzie wysy≈Ça go jako za≈ÇƒÖcznik pod wskazany adres 
 
 
 
 
-Program jest udostÍpniony tak jak jest bez øadnej odpowiedzialoúci za jego dzia≥anie, masz uwagi pisz : mbakiewicz@gmail.com 
+Program jest udostƒôpniony tak jak jest bez ≈ºadnej odpowiedzialno≈õci za jego dzia≈Çanie, masz uwagi pisz : mbakiewicz@gmail.com
