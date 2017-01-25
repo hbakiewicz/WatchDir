@@ -260,7 +260,7 @@ public class WatchDir {
             DBNAME = prop.getProperty("dbname", "pcmarket");
             DBCONNECTIONSTRING = prop.getProperty("dbconnectstring", "jdbc:sqlserver://localhost");
             DBUSER = prop.getProperty("dbuser", "sa");
-            DBPASSWORD = prop.getProperty("dbpassword", "mayhem26");
+            DBPASSWORD = prop.getProperty("dbpassword", "");
             DBPORT = prop.getProperty("dbport", "1433");
 
         } catch (IOException ex) {
